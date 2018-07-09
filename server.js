@@ -3,7 +3,7 @@ const hbs = require('hbs');
 
 const fs = require('fs');
 
-const PORT = 4000;
+const PORT = process.env.PORT || 4000;
 
 const weather = require('./weather/weather');
 
