@@ -54,7 +54,7 @@ hbs.registerHelper('getTagLine', () => {
 
 })
 
-BhxBrowser.registerHelper('getCurrentYear', () => {
+hbs.registerHelper('getCurrentYear', () => {
 
     return new Date().getFullYear();
 
