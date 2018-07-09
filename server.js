@@ -54,6 +54,12 @@ hbs.registerHelper('getTagLine', () => {
 
 })
 
+BhxBrowser.registerHelper('getCurrentYear', () => {
+
+    return new Date().getFullYear();
+
+})
+
 app.get('/', (req, res) => {
 
     res.render('home.hbs');
