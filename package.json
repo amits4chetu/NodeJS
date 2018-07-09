@@ -1,0 +1,23 @@
+{
+  "name": "weather-app-express",
+  "version": "1.0.0",
+  "description": "A weather app developed in express.js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "weather",
+    "app",
+    "node.js",
+    "express"
+  ],
+  "author": "Kunal Singh",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.3",
+    "hbs": "^4.0.1"
+  }
+}
